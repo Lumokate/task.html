@@ -1,27 +1,62 @@
 <!DOCTYPE html>
 <html>
+ <head>
+  <style>
+   header {
+     border: 2px solid lightgreen;
+	 padding: 20px;
+	 margin: 5px;
+	 dsiplay: inline-block;
+	 color: lightgreen;
+}
+   nav {
+     border: 2px solid rgb(255, 170, 36);
+	 float: right;
+	 width: 20%;
+	 color: rgb(255, 170, 36);
+}
+   .browser1 {
+     border: 2px solid #00c559;
+	 width: 95%
+	 margin: 5px;
+	 padding: 20px;
+}	 
+   .browser2 {
+     border: 2px solid rgb(255, 170, 36);
+	 padding: 10px;
+	 color: rgb(255, 170, 36);
+}
+   .browser3 {
+     border: 2px solid #0088ff;
+	 padding: 10px;
+	 color: #0088ff
+}	 
+   footer {
+     border: 2px solid #007849;
+	 padding: 20px;
+	 color: #007849;
+}	 
+  </style>
+ </head>  
  <body>
    
-   <header>
-     <nav>
-	 
-	 </nav>
+   <header style="font-size: 130%">
+      header
+     <nav>nav</nav>
    </header>
    
-   <main>
-    <section>
-	 <article></article>
-	 <article></article>
-	 <article></article>
+   <main class="browser1">
+    <p style="color: #00c559; font-size: 130%">main</p>
+    <section class="browser2">
+	 section
+	 <article class="browser3">article</article>
+	 <article class="browser3">article</article>
+	 <article class="browser3">article</article>
 	</section>
     
-    <section></section>
+    <section class="browser2"><p>section</p></section>
+   </main>	
     
-    <aside>
-     <section></section>
-     <section></section>
-    </aside>
-    
-    <footer></footer>
+    <footer><p style="font-size: 130%">footer</p></footer>
  </body>
 </html> 
